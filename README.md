@@ -5,8 +5,9 @@
 
 ![License](https://img.shields.io/github/license/Redstoneur/Archi-Web-Service-Spring)
 ![Top Language](https://img.shields.io/github/languages/top/Redstoneur/Archi-Web-Service-Spring)
-![Python Version](https://img.shields.io/badge/python-3.10-blue)
-![Node Version](https://img.shields.io/badge/Node-18-green)
+![Java Version](https://img.shields.io/badge/Java-21-blue)
+![Spring](https://img.shields.io/badge/Spring-Framework-brightgreen)
+![Maven](https://img.shields.io/badge/Maven-3.8.6-blue)
 ![Size](https://img.shields.io/github/repo-size/Redstoneur/Archi-Web-Service-Spring)
 ![Contributors](https://img.shields.io/github/contributors/Redstoneur/Archi-Web-Service-Spring)
 ![Last Commit](https://img.shields.io/github/last-commit/Redstoneur/Archi-Web-Service-Spring)
