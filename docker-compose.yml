@@ -1,0 +1,13 @@
+services:
+  app:
+    build:
+        context: ./restservice
+        dockerfile: Dockerfile
+    container_name: archiwebservice
+    ports:
+      - "3000:3000"
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:h2:mem:archiwebservice
+      - SPRING_DATASOURCE_USERNAME=sa
+      - SPRING_DATASOURCE_PASSWORD=password
+      - SPRING_JPA_HIBERNATE_DDL_AUTO=update
