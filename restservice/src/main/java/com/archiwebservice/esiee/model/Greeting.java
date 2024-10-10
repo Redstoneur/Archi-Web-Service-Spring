@@ -9,7 +9,7 @@ public class Greeting {
     @Column(name = "id", nullable = false)
     private Long id;
 
-    @Column(name = "content", nullable = false)
+    @Column(name = "content")
     private String content;
 
     public Greeting() {
