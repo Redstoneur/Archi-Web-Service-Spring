@@ -68,7 +68,7 @@ for managing greetings.
    Open your browser and navigate to `http://localhost:3000`.
     - To view Swagger UI, navigate to `http://localhost:3000/swagger-ui.html`.
     - To view the H2 console, navigate to `http://localhost:3000/h2-console`.
-        - JDBC URL: `jdbc:h2:mem:testdb`
+        - JDBC URL: `jdbc:h2:mem:archiwebservice`
         - Username: `sa`
         - Password: `password`
 
@@ -89,7 +89,7 @@ for managing greetings.
    Open your browser and navigate to `http://localhost:3000`.
     - To view Swagger UI, navigate to `http://localhost:3000/swagger-ui.html`.
     - To view the H2 console, navigate to `http://localhost:3000/h2-console`.
-        - JDBC URL: `jdbc:h2:mem:testdb`
+        - JDBC URL: `jdbc:h2:mem:archiwebservice`
         - Username: `sa`
         - Password: `password`
 
