@@ -6,6 +6,9 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.Optional;
 
+/**
+ * Service class for managing greetings.
+ */
 @Service
 public interface GreetingServices {
     List<Greeting> getAllGreeting();
@@ -20,3 +23,5 @@ public interface GreetingServices {
 
 
 }
+
+
