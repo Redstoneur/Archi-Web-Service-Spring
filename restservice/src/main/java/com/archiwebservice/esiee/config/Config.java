@@ -6,10 +6,18 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import java.util.UUID;
-
+/**
+ * Configuration class for setting up initial data.
+ */
 @Configuration
 public class Config {
+
+    /**
+     * Bean that runs on application startup to create initial greetings.
+     *
+     * @param greetingServicesImpl The service used for managing greetings.
+     * @return A CommandLineRunner that creates initial greetings.
+     */
     @Bean
     CommandLineRunner commandLineRunner(GreetingServicesImpl greetingServicesImpl) {
         return args -> {
