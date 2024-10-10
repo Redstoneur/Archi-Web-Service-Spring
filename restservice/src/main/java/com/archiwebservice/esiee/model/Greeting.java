@@ -52,11 +52,20 @@ public class Greeting {
     /**
      * Constructor for the Greeting entity.
      *
-     * @param id The ID of the Greeting.
+     * @param id      The ID of the Greeting.
      * @param content The content of the Greeting.
      */
     public Greeting(Long id, String content) {
         this.id = id;
+        this.content = content;
+    }
+
+    /**
+     * Constructor for the Greeting entity.
+     *
+     * @param content The content of the Greeting.
+     */
+    public Greeting(String content) {
         this.content = content;
     }
 

@@ -38,7 +38,7 @@ public interface GreetingServices {
     /**
      * Updates an existing greeting.
      *
-     * @param id the ID of the greeting to update
+     * @param id             the ID of the greeting to update
      * @param greetingDetail the new details of the greeting
      * @return an Optional containing the updated greeting if found, or empty if not found
      */
