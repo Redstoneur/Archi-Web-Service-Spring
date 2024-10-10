@@ -40,19 +40,10 @@ public class Greeting {
         this.id = id;
     }
 
-<<<<<<< HEAD
     public void setContent(String content) {
         this.content = content;
     }
 
-=======
-    /**
-     * Constructs a new Greeting with the specified ID and content.
-     *
-     * @param id The ID of the Greeting.
-     * @param content The content of the Greeting.
-     */
->>>>>>> ffe264e8e14532a425afcd87d52b6b2e525144bc
     public Greeting(Long id, String content) {
         this.id = id;
         this.content = content;
