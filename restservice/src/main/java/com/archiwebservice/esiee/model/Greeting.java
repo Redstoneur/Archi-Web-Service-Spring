@@ -60,6 +60,10 @@ public class Greeting {
         this.content = content;
     }
 
+    public Greeting(String content) {
+        this.content = content;
+    }
+
     /**
      * Gets the content of the Greeting.
      *
