@@ -7,9 +7,19 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 import java.util.Optional;
 
+/**
+ * Repository interface for managing Greeting entities.
+ * This interface extends JpaRepository to provide CRUD operations for Greeting entities.
+ */
 @Repository
 public interface GreetingRespository extends JpaRepository<Greeting, Long> {
 
+    /**
+     * Finds a list of Greeting entities by their ID.
+     *
+     * @param id The ID of the Greeting entities to find.
+     * @return A list of Greeting entities with the specified ID.
+     */
     List<Greeting> findGreetingById(Long id);
 
 }
