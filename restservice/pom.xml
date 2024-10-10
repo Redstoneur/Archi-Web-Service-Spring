@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.archiwebservice</groupId>
-    <artifactId>demo</artifactId>
+    <artifactId>restservice</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>demo</name>
-    <description>demo</description>
+    <name>restservice</name>
+    <description>restservice demo</description>
     <url/>
     <licenses>
         <license/>
