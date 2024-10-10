@@ -5,7 +5,7 @@ import jakarta.persistence.*;
 @Entity
 public class Greeting {
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", nullable = false)
     private Long id;
 
@@ -24,6 +24,9 @@ public class Greeting {
         this.id = id;
     }
 
+    public void setContent(String content) {
+        this.content = content;
+    }
 
     public Greeting(Long id, String content) {
         this.id = id;

@@ -1,27 +1,22 @@
 package com.archiwebservice.esiee.services;
 
 import com.archiwebservice.esiee.model.Greeting;
-import com.archiwebservice.esiee.respository.GreetingRespository;
-import org.hibernate.internal.build.AllowNonPortable;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Optional;
 
 @Service
-public class GreetingServices {
+public interface GreetingServices {
+    List<Greeting> getAllGreeting();
 
-        private final GreetingRespository greetingRespository;
-        @Autowired
-        public GreetingServices(GreetingRespository greetingRespository) {
-            this.greetingRespository = greetingRespository;
-        }
+    Optional<Greeting> getGreetingById(Long id);
 
-        public List<Greeting> getById(Long id) {
-            return greetingRespository.findGreetingById(id);
-        }
+    Greeting createGreeting(Greeting greeting);
 
-        public String hello() {
-            return "Hello, World!";
-        }
+    Optional<Greeting> updateGreeting(Long id, Greeting greetingDetain);
+
+    boolean deleteGreeting(Long id);
+
+
 }
